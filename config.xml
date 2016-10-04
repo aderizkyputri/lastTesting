@@ -3,13 +3,10 @@
    xmlns:gap = "http://phonegap.com/ns/1.0"
    xmlns:android = "http://schemas.android.com/apk/res/android"
    id = "com.phonegap.testAja" 
-   version = "1.0.0">
-   <name>Coba Json</name>  
-   <description>
-
-   </description>
-   <author href="http://phonegap.com" email="support@phonegap.com"> 
-   </author>
+   version = "1.0.0"> 
+   <name>Test Aja</name>  
+   <description></description>
+   <author href="http://phonegap.com" email="support@phonegap.com"></author>
 
    <preference name="permissions" value="none"/>
    <preference name="phonegap-version" value="3.7.0" /> 
@@ -18,7 +15,7 @@
    <preference name="android-minSdkVersion" value="7" />
    <preference name="android-installLocation" value="auto" />
    <preference name="fullscreen" value="false" />
-  
+ 
 
    <gap:plugin name="org.apache.cordova.battery-status" />
    <gap:plugin name="org.apache.cordova.camera" />
@@ -39,9 +36,6 @@
    <gap:plugin name="org.apache.cordova.splashscreen" />
    <gap:plugin name="org.apache.cordova.vibration" />
  
-  
-   
-
   
    <access origin="*"/>
 </widget>
